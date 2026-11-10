@@ -52,6 +52,7 @@ SIGA-SAP-WM/
 ├── seed_db.sql           # Script maestro SQL (Esquema de tablas, triggers y datos iniciales)
 ├── db_config.json        # Archivo de configuración local de conexión (generado automáticamente)
 └── README.md             # Documentación del proyecto
+```
 
 ---
 
