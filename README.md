@@ -61,15 +61,16 @@ SIGA-SAP-WM/
 2. Asegúrate de tener SQL Server corriendo localmente (por ejemplo, en localhost).
 3. El archivo de configuración db_config.json se autogenerará con los valores por defecto al iniciar la aplicación. Si necesitas cambiar el servidor, edítalo con la estructura:
 JSON
-
+```bash
 {
   "server": "localhost",
   "database": "SIGA_SAP",
   "trusted_connection": true
 }
+```
 4. Ejecutar la aplicación:
-
-python main.py
+    ```bash
+    python main.py
 
 ---
 
