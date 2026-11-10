@@ -1,9 +1,12 @@
-# Entornos virtuales
+# Configuración local de VS Code
+.vscode/
+
+# Entornos virtuales de Python (si los creas con venv o env)
 venv/
 env/
 __pycache__/
 
-# Archivos de configuración locales con datos y credenciales
+# Archivos de configuración con credenciales o rutas locales de la BD
 db_config.json
 audit_db_config.json
 
