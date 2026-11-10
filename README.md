@@ -39,7 +39,10 @@ Sistema de gestión de almacén (Warehouse Management) desarrollado en **Python*
    ```bash
    pip install pyodbc
 
+---
+
 ## 📂 Estructura del Proyecto
+```text
 SIGA-SAP-WM/
 │
 ├── main.py               # Punto de entrada principal y vistas de la interfaz (Tkinter)
@@ -49,6 +52,8 @@ SIGA-SAP-WM/
 ├── seed_db.sql           # Script maestro SQL (Esquema de tablas, triggers y datos iniciales)
 ├── db_config.json        # Archivo de configuración local de conexión (generado automáticamente)
 └── README.md             # Documentación del proyecto
+
+---
 
 ## 🛠️ Configuración y Ejecución
 1. Clonar el repositorio o descargar los archivos en tu PC.
@@ -64,6 +69,8 @@ JSON
 4. Ejecutar la aplicación:
 
 python main.py
+
+---
 
 ## 🔑 Credenciales de Acceso por Defecto
 
